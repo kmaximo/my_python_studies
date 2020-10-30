@@ -47,3 +47,22 @@ Created on Thu Oct 29 23:30:07 2020
 
 # print("A área do circulo é ",a,"m2")
 
+#7º Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
+
+# lado = float(input("Informe o valor do lado: "))
+# area = lado * lado
+# dobro = area * 2
+# print("A área é: ",area," e o dobro é :",dobro)
+
+#8º Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. 
+#Calcule e mostre o total do seu salário no referido mês.
+
+# valhora = float(input("Informe o valor da hora: "))
+# numhora = float(input("Informe o numeros de horas trabalhadas: "))
+
+# print("Seu salário é de R$ ",numhora*valhora)
+
+#9º Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius.
+#C = 5 * ((F-32) / 9).
+
+temperatura
