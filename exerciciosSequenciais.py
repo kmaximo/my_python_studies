@@ -28,6 +28,22 @@ Created on Thu Oct 29 23:30:07 2020
 # n3=int(input("Informe a terceira nota: "))
 # n4=int(input("Informe a quarta nota: "))
 
-# print("A média é "+str((n1+n2+n3+n4)/4))
+# print("A média é ",(n1+n2+n3+n4)/4)
 
-#5º 
+#5º Faça um Programa que converta metros para centímetros.
+
+# metros = float(input("Metros a ser convertidos: "))
+
+# cent = metros * 1000
+
+# print(str(cent)+"cm")
+
+#6º Faça um Programa que peça o raio de um círculo, calcule e mostre sua 
+
+# pi = 3.14
+# r = float(input("Digite a área do circulo em metros: "))
+
+# a = pi * (r * r)
+
+# print("A área do circulo é ",a,"m2")
+
