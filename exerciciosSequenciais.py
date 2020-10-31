@@ -28,11 +28,13 @@ def get_menu_choice():
             loop = False
         elif escolha == '2':
             print(input("Informe um numero: "))
+            loop = False
         elif escolha == '3':
             n1=int(input("Informe o primeiro numero: "))
             n2=int(input("Informe o segundo numero: "))
 
             print("A Soma foi "+str(n1+n2))
+            loop = False
         elif escolha == '4':
             n1=int(input("Informe a primeira nota: "))
             n2=int(input("Informe a segunda nota: "))
@@ -40,12 +42,14 @@ def get_menu_choice():
             n4=int(input("Informe a quarta nota: "))
             
             print("A média é ",(n1+n2+n3+n4)/4)
+            loop = False
         elif escolha == '5':
             metros = float(input("Metros a ser convertidos: "))
             
             cent = metros * 1000
             
-            print(str(cent)+"cm")            
+            print(str(cent)+"cm")   
+            loop = False
         elif escolha == '6':
             pi = 3.14
             r = float(input("Digite a área do circulo em metros: "))
@@ -53,18 +57,19 @@ def get_menu_choice():
             a = pi * (r * r)
             
             print("A área do circulo é ",a,"m2")  
+            loop = False
         elif escolha == '7':
             lado = float(input("Informe o valor do lado: "))
             area = lado * lado
             dobro = area * 2
-            print("A área é: ",area," e o dobro é :",dobro)            
+            print("A área é: ",area," e o dobro é :",dobro)  
+            loop = False
         elif escolha == '8':
             valhora = float(input("Informe o valor da hora: "))
             numhora = float(input("Informe o numeros de horas trabalhadas: "))
             
-            print("Seu salário é de R$ ",numhora*valhora)            
-        elif escolha == '9':
-            print("")
+            print("Seu salário é de R$ ",numhora*valhora)  
+            loop = False
         else:
             print("Opção errada.")
             loop = False
